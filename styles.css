@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00CDAC;
+    width: 100%;
+    color: white;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    justify-content: center;
+}
+
+.uncomplete{
+    border: solid 2px #CEE8E5;
+    padding: 1%;
+    border-radius: 2%;
+    width: 31%;
+}
+
+.uncomplete > h2 {
+    text-align: center;
+    margin: 12px 0;
+    color: #00ad90;
+}
+
+.input_buku{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #CEE8E5;
+    padding: 16px;
+    border-radius: 10px;
+    width: 31%;
+    font-size: 16px;
+}
+
+.input_buku > h2 {
+    text-align: center;
+    margin: 12px 0;
+    color: #00ad90;
+}
+
+.input_buku > form > .Judul{
+    margin: 8px 0;
+}
+
+.input_buku > form > .Penulis{
+    margin: 8px 0;
+}
+
+.input_buku > form > .Tahun{
+    margin: 8px 0;
+}
+
+.input_buku > form > .Selesai{
+    margin: 8px 0;
+}
+
+.input_buku > form > .search {
+    margin: 8px 0;
+}
+
+.input_buku > form > .Judul > input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.input_buku > form > .Penulis > input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.input_buku > form > .Tahun > input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.input_buku > form > .search > input {
+    width: 80%;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.input_buku > form > button{
+    width: 100%;
+    background-color:#00CDAC;
+    color: white;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 6px;
+    display: block;
+}
+
+.input_buku > form > .search > button {
+    background-color:#00CDAC;
+    color: white;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.input_buku > form > h2 {
+    text-align: center;
+    margin: 25px 0;
+    color: #00ad90;
+}
+
+.Complete{
+    border: solid 2px #CEE8E5;
+    padding: 1%;
+    border-radius: 2%;
+    width: 31%;
+}
+
+.Complete > h2 {
+    text-align: center;
+    margin: 12px 0;
+    color: #00ad90;
+}
+
+.box{
+    border: 2px solid #8DD7BF;
+    border-radius: 3%;
+    padding: 3%;
+    width: 100%;
+}
+
+.btn_hapus{
+    width: auto;
+    height: 30px;
+    background-color:#FF284B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 2%;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+.btn_belum{
+    width: auto;
+    height: 30px;
+    background-color: #00CDAC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 2%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.btn_selesai{
+    width: auto;
+    height: 30px;
+    background-color: #00CDAC;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 2%;
+    padding: 8px;
+    cursor: pointer;
+}

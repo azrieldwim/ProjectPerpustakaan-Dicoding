@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Bookshelf Apps</h1>
+    </header>
+
+    <main>
+        <div class="uncomplete">
+            <h2>Buku yang belum dibaca</h2>
+            <div class="list" id="belum_baca">
+            </div>
+        </div>
+
+        <div class="input_buku">
+            <h2>Masukan Data Buku</h2>
+            <form id="input">
+                <div class="Judul">
+                    <label>Judul</label>
+                    <input type="text" id="input_judul" autocomplete="off" required>
+                </div>
+                <div class="Penulis">
+                    <label>Penulis</label>
+                    <input type="text" id="input_penulis" autocomplete="off" required>
+                </div>
+                <div class="Tahun">
+                    <label>Tahun</label>
+                    <input type="number" id="input_tahun" required>
+                </div>
+                <div class="Selesai">
+                    <label>Selesai Dibaca</label>
+                    <input type="checkbox" id="status">
+                </div>
+                <button type="submit" id="submit" >Masukan Ke Rak <b>Belum Selesai Dibaca</b></button>
+                <h2>Cari Buku</h2>
+                <div class="search">
+                    <label>Judul</label>
+                    <input type="text" id="search_input">
+                    <button type="button" id="search_button">Cari</button>
+                </div>
+            </form>    
+        </div>
+        
+        <div class="Complete">
+            <h2>Buku yang Sudah Dibaca</h2>
+            <div  class='list' id='sudah_baca' >
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>    
+</body>
+</html>
